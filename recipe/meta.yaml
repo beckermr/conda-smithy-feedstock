@@ -6,9 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  # FIXME: Revert to static artifacts in next release
-  # url: https://github.com/conda-forge/conda-smithy/releases/download/v{{ version }}/conda_smithy-{{ version }}.tar.gz
-  url: https://github.com/conda-forge/conda-smithy/archive/v{{ version }}.tar.gz
+  url: https://github.com/conda-forge/conda-smithy/releases/download/v{{ version }}/conda_smithy-{{ version }}.tar.gz
   sha256: bef19f955592659e533bfc54927ce3d927afe824d931f4da6bfeec3805da41ba
 
 build:
