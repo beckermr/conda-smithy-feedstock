@@ -1,4 +1,4 @@
-{% set version = "2026.8.5" %}
+{% set version = "2026.8.9" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -6,10 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  # FIXME: Revert to static artifacts in next release
-  # url: https://github.com/conda-forge/conda-smithy/releases/download/v{{ version }}/conda_smithy-{{ version }}.tar.gz
-  url: https://github.com/conda-forge/conda-smithy/archive/v{{ version }}.tar.gz
-  sha256: e026e3c2d54ba1b4acacc862ba3af90246dee3069a6509f53edadd70b2130bd0
+  url: https://github.com/conda-forge/conda-smithy/releases/download/v{{ version }}/conda_smithy-{{ version }}.tar.gz
+  sha256: bef19f955592659e533bfc54927ce3d927afe824d931f4da6bfeec3805da41ba
 
 build:
   number: 0
